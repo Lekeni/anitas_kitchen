@@ -10,7 +10,7 @@ body{
     background-size: cover;
     padding: 0;
     margin: 0;
-    height: 630px;
+    height: 540px;
     align-items: center;
     align-items: center;
 }
@@ -19,10 +19,12 @@ body{
 }
 .landing-div .logo-image{
     margin-left: 40%
+    margin-bottom: 10px;
 }
 .landing-div p{
     text-align: center;
     font-size: 1.5em;
+    margin-bottom: 10px;
     position: relative;
     color: #ffffff;
 }
