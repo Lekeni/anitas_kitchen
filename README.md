@@ -14,10 +14,12 @@ The website is developed using two basics of web design that are:
 
 - CSS
 
+A Javascript reference is present and used where icons are imported from [Font Awesome](https://fontawesome.com/).
+
 # Pre-requisites
 
-First be of sound mind.
-Additionally, to successfully view the website, you must open the link on a Macbook Windows or Linux PC with a width of atleast 1428px.
+First be of sound mind .
+Additionally, to successfully view the website, you must open the link on a Macbook, Windows or Linux PC with a width of atleast 1428px.
 
 # Screenshots
 
