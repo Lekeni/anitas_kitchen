@@ -241,6 +241,7 @@ svg{
     height: 30px;
     position: relative;
     padding-left: 10px;
+     cursor: pointer;
 }
 .fast-foods-zone-div #less-than{
     padding-left: 10px;
