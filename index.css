@@ -39,23 +39,221 @@ svg{
     color: white;
 }
 
-.images-with-text{
+
+
+.happy-hour-div{
     width: 100%;
+    height: 220px;
+    display: flex;
+}
+.happy-hour-div .happy-hour-fourth1{
+    width: 25%;
+}
+
+.happy-hour-div .happy-hour-fourth1 .happy-hour-half1{
+    width: 100%;
+    height: 110px;
+    line-height: 90px;
+    background-color: #ffffff;
+    color: #9e9e9e;
+    font-size: 1.5em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.happy-hour-div .happy-hour-fourth1 .happy-hour-half2{
+    width: 100%;
+    height: 110px;
+    font-size: 1.5em;
+    line-height: 90px;
+    background-color: orangered;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.happy-hour-div .happy-hour-fourth2{
+    background: url(breakfast.jpg);
+    width: 25%;
+    text-align: center;
+    color: #ffffff;
+    font-family: cursive;
+    padding: 70px 0 0 0;
+}
+.happy-hour-div .happy-hour-fourth3{
+    background: url(lunch.jpg);
+    width: 25%;
+    text-align: center;
+    color: #ffffff;
+    font-family: cursive;
+    padding: 70px 0 0 0;
+    opacity: 0.25;
+}
+.happy-hour-div .happy-hour-fourth4{
+    background: url(dinner.jpg);
+    width: 25%;
+    text-align: center;
+    color: #ffffff;
+    font-family: cursive;
+    padding: 70px 0 0 0;
+}
+
+
+.images-with-text{
+    width: 70%;
     height: 400px;
     display: flex;
-    border: 2px dashed orange;
+    background-color: #ffffff;
 }
 .images-with-text .images-one{
-    width: 400px;
-    height: 400px;
-    background-color: cornsilk;
+    background: #ffffff;
+    width: 49%;
+    color: #000000;
     align-items: center;
-    margin: 0;
+    margin-top: 30px;
 }
 .images-with-text .images-one img{
-    width: 380px;
-    height: 190px;
+    width: 70%;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    box-shadow: 0px 0px 5px 2px #9e9e9e;
 }
+.images-with-text .images-one h3{
+    text-align: left;
+}
+.images-with-text .images-one h4{
+    text-align: left;
+}
+.images-with-text .images-one p{
+    text-align: left;
+}
+.images-with-text .images-one a{
+    background: transparent;
+    width: 30%;
+    height: 50px;
+    padding: 10px;
+    padding-right: 16%;
+    color: orangered;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid orangered;
+    outline: none;
+}
+.images-with-text .images-one a svg{
+    width: 70px;
+    height: 20px;
+    color: orangered;
+    position: relative;
+}
+
+.images-with-text .images-two{
+    background: #ffffff;
+    width: 49%;
+    color: #000000;
+    align-items: center;
+    margin-top: 30px;
+}
+.images-with-text .images-two .image-two-images {
+    display: flex;
+}
+.images-with-text .images-two .image-two-images img{
+    height: 320px;
+    width: 50%;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 5px 2px #9e9e9e;
+}
+.images-with-text .images-two h3{
+    text-align: right;
+    width: 90%;
+    padding-right: 40px;
+}
+.images-with-text .images-two h4{
+    text-align: right;
+    width: 90%;
+    padding-right: 40px;
+}
+.images-with-text .images-two p{
+    text-align: right;
+    width: 90%;
+    padding-right: 40px;
+}
+.images-with-text .images-two a{
+    background: transparent;
+    width: 30%;
+    height: 50px;
+    padding: 10px;
+    padding-right: 16%;
+    color: orangered;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid orangered;
+    outline: none;
+}
+.images-with-text .images-two a svg{
+    width: 70px;
+    height: 20px;
+    color: orangered;
+    position: relative;
+}
+
+
+
+.fast-foods-zone{
+    background: url(foodsBg.jpg);
+    opacity: 0.8;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.fast-foods-zone .food-headers{
+    display: flex;
+    width: 80.8%;
+    height: 90px;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(46px);
+    margin: -20px 0 0 0px;
+}
+.fast-foods-zone .food-headers h3{
+    width: 25%;
+    padding-top: 10px;
+    transform: translateY(0px);
+    background-color: #9e9e9e;
+}
+.fast-foods-zone-div{
+    width: 80%;
+    height: 320px;
+    display: inline-flex;
+    padding-top: 50px;
+    transform: translateY(25px);
+    opacity: 100%;
+    background-color: #ffffff;
+    align-items: center;
+    position: absolute;
+    margin-top: 60px;
+}
+.fast-foods-zone-div .fa-solid {
+    color: orangered;
+    width: 30px;
+    justify-content: center;
+    height: 30px;
+    position: relative;
+    padding-left: 10px;
+}
+.fast-foods-zone-div #less-than{
+    padding-left: 10px;
+}
+.fast-foods-zone-images img{
+    margin: 20px;
+    padding-left: 50px;
+}
+.fast-foods-zone-images h3{
+    color: orangered;
+    text-align: center;
+}
+
 
 .cornsilk-div{
     width: 100%;
@@ -141,14 +339,19 @@ svg{
     color: white;
     align-items: center;
     justify-content: center;
+    display: flex;
 }
 .social-media-zone .burger-logo{
     width: 30px;
     height: 25px;
-    visibility: visible;
+    padding: 10px 0 0 0;
 }
 .social-media-zone p{
+    text-align: center;
 }
 .social-media-zone img{
     margin: 10px;
+}
+.social-media-zone h5{
+    padding: 0 0 40px 0;
 }
