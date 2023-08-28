@@ -4,7 +4,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 .landing-div{
-    background-image: url(backgrounds/landing.jpg);
+    background-image: url(landing.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -12,18 +12,19 @@ body{
     margin: 0;
     height: 630px;
     align-items: center;
+    align-items: center;
 }
 .landing-div .hidden-image{
     visibility: hidden;
 }
-.landing-div img{
-    position: absolute;
+.landing-div .logo-image{
+    margin-left: 40%
 }
 .landing-div p{
     text-align: center;
-    margin: 16%;
     font-size: 1.5em;
-    color: #fff;
+    position: relative;
+    color: #ffffff;
 }
 .landing-div p strong{
     font-weight: bolder;
@@ -38,7 +39,78 @@ svg{
     color: white;
 }
 
-section p{
-    text-align: center;
-    font-size: 1.4em;
+.images-with-text{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    border: 2px dashed orange;
+}
+.images-with-text .images-one{
+    width: 400px;
+    height: 400px;
+    background-color: cornsilk;
+    align-items: center;
+    margin: 0;
+}
+.images-with-text .images-one img{
+    width: 380px;
+    height: 190px;
+}
+
+.subscribe-area{
+    background: url(subscribe.jpg);
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+.subscribe-area p{
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 49px;
+    margin: 10px;
+}
+.subscribe-area input{
+    width: 490px;
+    height: 35px;
+    border-radius: 5px;
+    background: #e5e5e5;
+    outline: none;
+    border: none;
+    margin: 0px;
+    color: #162938;
+    opacity: 0.4;
+    font-size: 1.1em;
+}
+::placeholder{
+    color: #162938;
+    font-size: 1.2em;
+}
+.subscribe-area button{
+    cursor: pointer;
+    width: 250px;
+    height: 37px;
+    border-radius: 5px;
+    background: orangered;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+.social-media-zone{
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.social-media-zone .burger-logo{
+    width: 30px;
+    height: 25px;
+    visibility: visible;
+}
+.social-media-zone p{
+}
+.social-media-zone img{
+    margin: 10px;
 }
