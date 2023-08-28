@@ -6,6 +6,8 @@ A simple webpage that contains a collection of photos/pictures in which some are
 
 The basic layout of the website is simplified to a column view to provide ease in viewing the photographs as well as in reading texts that accompany some images.
 
+A link to the live website https://lekeni.github.io/anitas_kitchen/
+
 # Tools
 
 The website is developed using two basics of web design that are:
