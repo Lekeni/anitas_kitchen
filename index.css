@@ -57,6 +57,44 @@ svg{
     height: 190px;
 }
 
+.cornsilk-div{
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-items: center;
+    background-color: #ffffff;
+    padding: 60px;
+}
+.cornsilk-div .inner-cornsilk-div{
+    width: 80%;
+    background-color: #ffffff;
+    height: 250px;
+    box-shadow: 0px 0px 5px 2px #9e9e9e;
+    display: flex;
+}
+.cornsilk-div .inner-cornsilk-div .happy-customers{
+    display: block;
+    width: 49%;
+}
+.cornsilk-div .inner-cornsilk-div .happy-customers h3{
+    color: orangered;
+}
+.cornsilk-div .inner-cornsilk-div .vertical-divider{
+    width: 1px;
+    height: 80%;
+    margin-top: 25px;
+    background: #9e9e9e;
+}
+.cornsilk-div .inner-cornsilk-div .happy-customers svg{
+    color: orangered;
+    width: 20px;
+    font-weight: bold;
+}
+.cornsilk-div .inner-cornsilk-div .happy-customers img{
+    margin: 10px;
+    cursor: pointer;
+}
+
 .subscribe-area{
     background: url(subscribe.jpg);
     height: 200px;
@@ -79,7 +117,7 @@ svg{
     border: none;
     margin: 0px;
     color: #162938;
-    opacity: 0.4;
+    opacity: 0.56;
     font-size: 1.1em;
 }
 ::placeholder{
